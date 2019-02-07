@@ -29,6 +29,12 @@ cumulus_resops_users:
   - name: johng
     password: johng
     roles: "{{ cumulus_admin_roles }}"
+  - name: paulb
+    password: paulb
+    roles: "{{ cumulus_admin_roles }}"
+  - name: javiern
+    password: javiern
+    roles: "{{ cumulus_admin_roles }}"
 
 # List of roles to apply to admin users in the cumulus demo project.
 cumulus_admin_roles:
